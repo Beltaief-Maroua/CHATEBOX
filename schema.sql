@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS todolist;
+CREATE DATABASE IF NOT EXISTS todolist;
+USE todolist;
+CREATE TABLE IF NOT EXISTS list(
+    id INT AUTO_INCREMENT,
+    firstName VARCHAR(50) NOT NULL,
+    lastName VARCHAR(50) NOT NULL,
+    image VARCHAR(255) NOT NULL,
+    createAt VARCHAR(60) NOT NULL,
+    PRIMARY KEY(id)
+);
