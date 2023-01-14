@@ -17,13 +17,8 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
-        <Card title="Local Modules">
-          <TextInput placeholder='hello' />
-          {/*react-native-elements Card*/}
-          <Text style={styles.paragraph}>
-           
-          </Text>
-        </Card>
+        <Card />
+         
       </View>
     </SafeAreaView>
   );
